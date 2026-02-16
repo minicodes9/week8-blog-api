@@ -1,0 +1,1 @@
+This project is a fully functional Blog API built with Node.js and Express, integrated with a cloud-based MongoDB Atlas database. It features data validation, advanced keyword search, and pagination for optimal performance.
