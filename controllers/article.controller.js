@@ -25,19 +25,19 @@ const postArticle = async (req, res, next) => {
 
 //Get All Blog Posts with Pagination
 const getAllArticle = async (req, res, next) => {
-    const { limit = 10, page = 1} = req.query;
+    const { limit = 10, page = 1 } = req.query;
     const skip = (page - 1) * limit;
 
     try {
-        const articles = await Article.find({})
-        .sort({ createdAt: -1 })
-        .limit(Number(limit))
-        .skip(Number(skip));
+        const articles = await ArticleModel.find({})
+            .sort({ createdAt: -1 })
+            .limit(Number(limit))
+            .skip(Number(skip))
+            .populate("author", "name _id email");
 
         res.status(200).json(articles);
     } catch (error) {
-
-        res.status(500).json({ message: error.message});
+        res.status(500).json({ message: error.message });
     }
 };
 
@@ -45,14 +45,13 @@ const getAllArticle = async (req, res, next) => {
 const searchArticles = async (req, res, next) => {
     try {
         const { q } = req.query;
-        const articles = await Article.find({
-            $text: { $search: q}
-        });
+        const articles = await ArticleModel.find({
+            $text: { $search: q }
+        }).populate("author", "name email");
 
         res.status(200).json(articles);
     } catch (error) {
-        
-        res.status(500).json({ message: error.message});
+        res.status(500).json({ message: error.message });
     }
 };
 
