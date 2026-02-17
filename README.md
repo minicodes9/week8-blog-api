@@ -8,9 +8,13 @@
 ​𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
 
 ​Backend: Node.js, Express.js
+
 ​Database: MongoDB with Mongoose ODM
+
 ​Security: JSON Web Tokens (JWT), Bcrypt password hashing
+
 ​Validation: Joi
+
 ​Testing: Postman and Thunder Client (VS Code)
 ​
 
@@ -45,7 +49,7 @@ cd week8-blog-api
 npm install
 ```
 
-3.𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
+3. 𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
 
 ​Create a .env file in the root directory and add:
 
@@ -56,7 +60,7 @@ JWT_SECRET=your_super_secret_key
 ```
 
 
-4.𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐩𝐫𝐨𝐣𝐞𝐜𝐭
+4. 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐩𝐫𝐨𝐣𝐞𝐜𝐭
 
 ```bash
 npm run dev
