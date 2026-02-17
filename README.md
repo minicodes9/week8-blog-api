@@ -55,11 +55,18 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
 ```
 
-4. 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐩𝐫𝐨𝐣𝐞𝐜𝐭
+
+4.𝐑𝐮𝐧𝐧𝐢𝐧𝐠 𝐭𝐡𝐞 𝐩𝐫𝐨𝐣𝐞𝐜𝐭
 
 ```bash
 npm run dev
 ```
+
+𝐀𝐏𝐈 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧
+
+You can view the full interactive API documentation, including request examples and expected responses, here:
+
+[🔗 View Postman Documentation]
 
 
 
