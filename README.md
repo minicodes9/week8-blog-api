@@ -72,5 +72,7 @@ You can view the full interactive API documentation, including request examples 
 
 [🔗 View Postman Documentation]
 
+https://documenter.getpostman.com/view/51991219/2sBXcDGM9V
+
 
 
