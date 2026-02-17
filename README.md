@@ -6,7 +6,6 @@
 
 
 ​Tech Stack
-
 ​Backend: Node.js, Express.js
 ​Database: MongoDB with Mongoose ODM
 ​Security: JSON Web Tokens (JWT), Bcrypt password hashing
