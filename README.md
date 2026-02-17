@@ -26,3 +26,22 @@
 •​Data Population: Returns human-readable author details (Name/Email) instead of just IDs.
 
 •​Pagination & Search: Efficient data retrieval with limit/skip logic and global text search.
+
+
+𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐒𝐭𝐚𝐫𝐭𝐞𝐝🚀
+
+
+​1. 𝐏𝐫𝐞𝐫𝐞𝐪𝐮𝐢𝐬𝐢𝐭𝐞𝐬
+
+•​Node.js installed
+•​MongoDB Atlas account
+
+
+​2. 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
+
+```bash
+git clone <your-repo-link>
+cd week8-blog-api
+npm install
+\```
+
