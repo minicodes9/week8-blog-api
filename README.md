@@ -5,7 +5,8 @@
 
 
 
-​Tech Stack
+​𝐓𝐡𝐮𝐧𝐝𝐞𝐫 𝐂𝐥𝐢𝐞𝐧𝐭
+
 ​Backend: Node.js, Express.js
 ​Database: MongoDB with Mongoose ODM
 ​Security: JSON Web Tokens (JWT), Bcrypt password hashing
