@@ -6,7 +6,7 @@
 ---
 
 
-Tech Stack
+𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
 
 ​Backend: Node.js, Express.js
 
@@ -16,10 +16,9 @@ Tech Stack
 
 ​Validation: Joi
 
-​Testing: Postman and Thunder Client (VS Code)
+​Testing: Postman and Thunder Client (VS Code).
 
 ​---
-
 
 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
