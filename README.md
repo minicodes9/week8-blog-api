@@ -5,7 +5,7 @@
 ---
 
 
-##​𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
+##​Tech Stack
 
 ​Backend: Node.js, Express.js
 
