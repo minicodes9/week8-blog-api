@@ -1,11 +1,12 @@
 
-​𝐁𝐥𝐨𝐠 𝐀𝐏𝐈 - 𝐒𝐞𝐜𝐮𝐫𝐞 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐒𝐲𝐬𝐭𝐞𝐦
+<strong>𝐁𝐥𝐨𝐠 𝐀𝐏𝐈 - 𝐒𝐞𝐜𝐮𝐫𝐞 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐒𝐲𝐬𝐭𝐞𝐦</strong>
 
 ​A secure RESTful API built with Node.js, Express, and MongoDB. This project features user authentication, data validation, and a relational database structure linking articles to their creators.
 
+---
 
 
-​𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
+𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤
 
 ​Backend: Node.js, Express.js
 
@@ -15,8 +16,9 @@
 
 ​Validation: Joi
 
-​Testing: Postman and Thunder Client (VS Code)
-​
+​Testing: Postman and Thunder Client (VS Code).
+
+---
 
 
 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
@@ -31,6 +33,7 @@
 
 •​Pagination & Search: Efficient data retrieval with limit/skip logic and global text search.
 
+---
 
 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐒𝐭𝐚𝐫𝐭𝐞𝐝🚀
 
@@ -66,11 +69,15 @@ JWT_SECRET=your_super_secret_key
 npm run dev
 ```
 
+---
+
 𝐀𝐏𝐈 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧
 
 You can view the full interactive API documentation, including request examples and expected responses, here:
 
 [🔗 View Postman Documentation]
+
+https://documenter.getpostman.com/view/51991219/2sBXcDGM9V
 
 
 
