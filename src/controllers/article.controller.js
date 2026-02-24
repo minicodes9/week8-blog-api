@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const Article = require('../models/article.model');
+const ArticleModel = require('../models/article.model.js');
 
 //Create a new Blog Post
 const postArticle = async (req, res, next) => {

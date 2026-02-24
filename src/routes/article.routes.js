@@ -12,10 +12,12 @@ const requireAuth = require('../middlewares/requireAuth.js');
 
 const router = express.Router();
 
-router.post('/', validateArticle, requireAuth, postArticle); 
-router.get('/', requireAuth, getAllArticle);
-router.get('/:id', requireAuth, getArticleById);
-router.put('/:id', validateUpdateArticle, requireAuth, updateArticleById);
-router.delete('/:id', requireAuth, deleteArticleById);
+router.use(requireAuth);
+
+router.post('/', validateArticle, postArticle); 
+router.get('/', getAllArticle);
+router.get('/:id', getArticleById);
+router.put('/:id', validateUpdateArticle, updateArticleById);
+router.delete('/:id', deleteArticleById);
 
 module.exports = router;

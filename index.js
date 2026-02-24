@@ -1,30 +1,27 @@
 require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-const connectDB = require('./database/connectDB.js');
-const logger = require('./middlewares/logger.js');
-const errorhandler = require('./middlewares/errorHandler.js');
+const validateEnv = require('./src/config/env.js');
+const connectDB = require('./src/config/connectDB.js');
+const app = require('./src/app.js');
 
-const ArticleRoutes = require('./routes/article.routes.js');
-const UserRoutes = require('./routes/user.routes.js');
-
-const app = express();
-
-app.use(logger);
-app.use(express.json());
-app.use(cors());
-app.use('/api/articles', ArticleRoutes);
-app.use('/api/users/', UserRoutes);
-
-connectDB();
-
-app.use(errorhandler);
+validateEnv();
 
 app.get('/', (req,res) => {
     res.send("Welcome to Blog API!");
 });
 
-const PORT = process.env.PORT || 3005;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+const PORT = process.env.PORT;
+
+const startServer = async () => {
+    try {
+        await connectDB();
+        app.listen(PORT, () => {
+            console.log(`Server is running on port ${PORT}`);
+        });
+    } catch (error) {
+        console.error("Failed to start server:", error);
+        process.exit(1);
+    }
+};
+
+startServer();
+
