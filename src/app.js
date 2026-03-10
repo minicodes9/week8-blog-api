@@ -11,8 +11,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(logger);
+app.use('/api/users', UserRoutes);
 app.use('/api/articles', ArticleRoutes);
-app.use('/api/users/', UserRoutes);
+
+
 app.use(errorhandler);
 
 module.exports = app;
