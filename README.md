@@ -60,6 +60,9 @@ npm install
 PORT=3005
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
+CLOUDINARY_NAME=your_cloudinary_name
+CLOUDINARY_KEY=your_cloudinary_api_key
+CLOUDINARY_SECRET=your_cloudinary_api_secret
 ```
 
 
